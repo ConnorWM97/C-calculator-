@@ -39,6 +39,11 @@ int main(void)
         operand_1,
         operand_2,
         operand_1 / operand_2);
+        break;
+
+    default:
+    printf("Invalid operator entered.\n");
+
     }
 
 
